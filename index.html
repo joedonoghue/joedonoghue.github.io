@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@yield('title')</title>
+        <script type="text/javascript" src='/js/app.js'></script>
+        <link rel='stylesheet' href='/css/app.css'></style>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    </head>
+    <body>
+        <div id='nav-top'>
+            <img id='profile-picture' src="/img/profile.jpg"/>
+            <span id='full-name'>Joe Donoghue</span>
+            <span id='major'>Computer Science</span>
+            <span id='school'>TCU</span>
+            <span id='pt-score'>300 PT score</span>
+        </div>
+        <div class='container'>
+            <div class="row">
+                <div class='col-12 col-md-9'>
+                    <div id='intro'>
+                        <h2>About Me</h2>
+                        My name is Joe Donoghue and I'm interested in all things tech- from designing websites to building quadcopters. You'll usually find me working on the computer or going for a run. My main interest lies in full-stack web development, though a lot of subjects catch my eye. <strong>My goal is to work as a Cyber Capabilities Development Officer, a software developer working for the Army Cyber Command or the Army Futures Command</strong>. <a href="mailto:j.donoghue@tcu.edu">j.donoghue@tcu.edu</a>.
+                    </div>
+                    <div class='joe-section'>
+                        <h1>Projects:</h1>
+                        <div id='projects'>
+                            <div class='project'>
+                                <h1>Photomight: photography selling platform (PHP, HTML, CSS, JS, Google Vision API...)</h1>
+                                <img src='/img/photomight.png' class='project-img'>
+
+                                <div class='project-desc'>
+                                <a href="https://photomight.com" target="_blank">Photomight.com</a> is a photography selling platform that provides photographers with a professional profile page and helpful tools for client projects. Photomight includes features like Google's Vision API, full login capabilities, image search, image keywords, payment processing, personalized sales analytics, automatic watermarking, and shortened links to make social media sharing easier. This project has gained most of its user base through its <a href='https://twitter.com/photomight' target="_blank">Twitter account</a>.
+                                </div>
+                            </div>
+                            <div class='project'>
+                                <h1>New member education site: (PHP, HTML, CSS, JS, Cloudinary API)</h1>
+                                <img src='/img/new-member.png' class='project-img'>
+
+                                <div class='project-desc'>
+                                This web application served to keep track of requirements that new members of the Beta Theta Pi Chapter at TCU needed to complete. It includes study hour location tracking, GPA tracking, quiz grade tracking, file dropboxes, real-time presentable status updates for team meetings, and submission checking/approval. New members submitted hundreds of photos and documents to an easy-to-use admin dashboard for team members to review.
+                                </div>
+                            </div>
+                            <div class='project'>
+                                <h1>Ocean and terrain generation: JS, WebGL, Bump/Normal Mapping</h1>
+                                <img src='/img/ocean.png' class='project-img'>
+
+                                <div class='project-desc'>
+                                This project involves projecting three differently-sized and seeded layers of Perlin noise on a 3D plane. A larger layer mimics the broad-shaped waves in the ocean or large hills and mountains. A second layer is for smaller details that create randomness and do away with a totally smooth wave or cliffside. The final layer is for fine detail like ripples in the water or a grainy/sandy land texture. Using a combination of parameters for these layers like amplitude and rate of change as well as color variations, you can come up with some cool looking ocean waves or terrain features.                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-12 col-md-2'>
+                    <div class='joe-section'>
+                        <h3>Skills:</h3>
+                        <div class='skills'>
+                            <div>PHP</div>
+                            <div>Unix/Linux Systems</div>
+                            <div>NGINX Web Servers</div>
+                            <div>Docker</div>
+                            <div>Python</div>
+                            <div>JavaScript</div>
+                            <div>Java</div>
+                            <div>Git</div>
+                            <div>Laravel Framework</div>
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>SQL</div>
+                            <div>Bootstrap 4</div>
+                            <div>Photoshop</div>
+                            <div>After Effects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class='joe-section col-12'>
+                    <h1>Notable classes taken at Texas Christian University:</h1>
+                    <div id='classes'>
+                        <div class='class'>
+                            <h1>Computer and Network Security</h1>
+                            <div class='class-desc'>
+                            Fundamental principles in computer systems and network security. Key topics will include security architectures, standards and protocols, cryptographic systems, and security related software tools. 
+                            </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Software Engineering</h1>
+                            <div class='class-desc'>
+                            Stages of the software development lifecycle (requirements analysis, specification, design, implementation, testing), evolution, and quality assurance. Classical and alternative process models and techniques are described and discussed. Management issues, professional responsibilities, and ethics of the profession are covered. Includes team projects and individual requirements analysis effort.                         </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Advanced Topics in Computer Software: Web Technologies</h1>
+                            <div class='class-desc'>
+                            Advanced topics of current interest in computer software, such as natural language programming, advanced operating systems, advanced compiler design, file structures, advanced database.
+                            </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Analysis of Algorithms</h1>
+                            <div class='class-desc'>
+                            Topics concerning what can and cannot be proven about computational complexity, including algorithm design methodology, techniques for analysis of space and time requirements, and P and NP completeness.                         </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Computer System Fundamentals</h1>
+                            <div class='class-desc'>
+                            Stored program computer architecture, machine representation of data, and assembly language programming. Followed by a discussion of operating system topics with an emphasis on issues related to multiprogramming. 
+                            </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Data Structures</h1>
+                            <div class='class-desc'>
+                            Linear lists, strings, and arrays. Representation of trees and graphs. Storage systems and structures. Symbol tables and searching techniques, sorting techniques. Formal specification of data structures and data structures in programming languages.                         </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Linux/Unix Systems</h1>
+                            <div class='class-desc'>
+                            Covers various operating system services and objectives. Topics include installation, management, and maintenance of Unix/Linux operating systems.
+                            </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Database Systems</h1>
+                            <div class='class-desc'>
+                            Design, implementation, and use of relational database systems. Topics include entity-relationship modeling, relational algebra, normalization, SQL, external data structures, query optimization, non-relational models, and applications.                         
+                            </div>
+                        </div>
+                        <div class='class'>
+                            <h1>Artificial Intelligence</h1>
+                            <div class='class-desc'>
+                            Knowledge representation and methods for intelligent search. Fundamental topics include state space search, logic, and inference engines. AI languages Prolog, Lisp, and Clips will be used to explore additional topics selected from two-person games, expert systems, automated theorem proving, planning, and machine learning. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
